@@ -1,0 +1,99 @@
+.top_banner_container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 45px;
+  background-color: rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .box {
+    // background-color: red;
+    height: 100%;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .left_box,
+    .right_box {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 32px;
+      height: 100%;
+    }
+
+    .login_btn {
+      background-color: #b99b5f;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      a {
+        color: #fff;
+        display: block;
+        width: 100%;
+        height: 100%;
+        padding: 10.5px;
+        display: flex;
+        gap: 10.5px;
+      }
+    }
+
+    .social_icons {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+
+      a {
+        color: #b99b5f;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
+
+  .right_box a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    color: #b99b5f;
+  }
+
+  .right_box div span {
+    display: flex;
+  }
+}
+
+@media (max-width: 850px) {
+  .box {
+    width: 100% !important;
+    padding-right: 16px;
+  }
+}
+
+@media (max-width: 650px) {
+  .hide {
+    display: none !important;
+  }
+  .right_box {
+    gap: 16px !important;
+  }
+  .left_box {
+    width: 100%;
+  }
+  .social_icons {
+    flex: 1;
+    justify-content: flex-end !important;
+  }
+  .box {
+    gap: 16px;
+  }
+}

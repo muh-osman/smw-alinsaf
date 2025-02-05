@@ -1,0 +1,19 @@
+.hero_container {
+  a {
+    text-decoration: unset;
+  }
+
+  position: relative;
+  width: 100%;
+  background-image: url(../../Assets/Images/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-height: 620px;
+  aspect-ratio: 16 / 9;
+
+  @media (max-width: 500px) {
+    max-height: unset;
+    height: 550px;
+  }
+}

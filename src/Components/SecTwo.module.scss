@@ -1,0 +1,80 @@
+.container {
+  background-color: #23282e;
+  padding: 16px;
+  background-image: url(../Assets/Images/backdrop.png);
+
+  h1 {
+    color: #b99b5f;
+    text-align: center;
+    margin-top: 48px;
+    font-weight: 800;
+    line-height: 40px;
+  }
+
+  h4 {
+    text-align: center;
+    color: #b6b6b6;
+    margin-top: 14px;
+    margin-bottom: 48px;
+    font-weight: 600;
+  }
+}
+
+.cards_box {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  width: 80%;
+  margin: auto;
+  padding-bottom: 48px;
+
+  @media (max-width: 650px) {
+    width: 100%;
+  }
+}
+
+.card {
+  background-color: #000;
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  aspect-ratio: 1 / 1;
+  gap: 16px;
+  flex: 1;
+
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  h3 {
+    color: #b99b5f;
+    text-align: center;
+    font-size: 23px;
+  }
+
+  p {
+    color: #b6b6b6;
+    text-align: center;
+  }
+
+  svg {
+    color: #b99b5f;
+    font-size: 88px;
+  }
+
+  &:hover {
+    background-color: #fff;
+  }
+  &:hover svg {
+    color: #23282e;
+  }
+  &:hover p {
+    color: #23282e;
+  }
+}
