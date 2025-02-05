@@ -142,7 +142,7 @@ body {
 }
 .footer-section .help-list ul li a,
 .footer-section .help-list ul li button {
-  color: #adadad;
+  color: #6f6f6f;
   font-size: 14px;
   /* font-family: "mont-light"; */
   background-color: transparent;
@@ -191,7 +191,7 @@ body {
 .footer-section .footer-contact ul li a {
   display: block;
   margin: 10px 0px;
-  color: #adadad;
+  color: #6f6f6f;
 }
 @media (max-width: 991px) {
   .footer-section .footer-contact ul li a {
@@ -223,7 +223,7 @@ body {
   }
 }
 .footer-section .footer-contact ul li span {
-  color: #adadad;
+  color: #6f6f6f;
   margin: 10px;
 }
 @media (max-width: 991px) {
@@ -252,7 +252,7 @@ body {
 .footer-section .rights-section .rights-info {
   display: flex;
   flex-wrap: nowrap;
-  color: #adadad;
+  color: #6f6f6f;
 }
 @media (max-width: 991px) {
   .footer-section .rights-section .rights-info {
@@ -316,10 +316,11 @@ body {
 .footer-section ul li a,
 .footer-section ul li button {
   transition: 0.1s;
+  text-decoration: unset;
 }
 
 .footer-section ul li a:hover,
 .footer-section ul li button:hover {
-  padding: 0 5px;
+  /* padding: 0 5px; */
   color: #e6d39c;
 }
