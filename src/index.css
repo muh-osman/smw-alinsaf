@@ -349,3 +349,20 @@ body {
 }
 
 /* End Whatsapp Icon */
+
+
+/* Bootstrap Form */
+.btn-primary {
+  background-color: #b99b5f !important;
+  border-color: #b99b5f !important;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #23282e !important;
+  border-color: #b6ac9a !important;
+}
+
+.form-control:focus {
+  border-color: #b99b5f !important;
+  box-shadow: 0 0 0 0.25rem #b99b5f7a !important;
+}

@@ -8,7 +8,7 @@ import { useEffect } from "react";
 import Footer from "../../Components/Footer";
 import Banner from "../../Components/Banner";
 import Navbar from "../../Components/Navbar";
-// import HeroTextAndBtn from "../../Components/HeroTextAndBtn";
+
 
 export default function About() {
   useEffect(() => {
