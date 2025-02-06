@@ -8,7 +8,7 @@ import { useEffect } from "react";
 import Footer from "../../Components/Footer";
 import Banner from "../../Components/Banner";
 import Navbar from "../../Components/Navbar";
-import HeroTextAndBtn from "../../Components/HeroTextAndBtn";
+// import HeroTextAndBtn from "../../Components/HeroTextAndBtn";
 
 export default function About() {
   useEffect(() => {
@@ -24,13 +24,10 @@ export default function About() {
       {/* Start Hero */}
       <div className={style.hero_container}>
         <Banner />
-        <Navbar />
-        {/* <div className={style.bg_container}> */}
-        {/* <div> */}
-        {/* <h1>من نحن</h1> */}
-        {/* <h5>نحقق العدالة بالخبرة ونحقق الإنصاف بالجدارة</h5> */}
-        {/* </div> */}
-        {/* </div> */}
+
+        <div className={style.nav_container}>
+          <Navbar />
+        </div>
       </div>
       {/* End Hero */}
 

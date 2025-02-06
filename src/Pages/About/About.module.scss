@@ -3,6 +3,12 @@
     text-decoration: unset;
   }
 
+  .nav_container {
+    a {
+      color: #000 !important;
+    }
+  }
+
   position: relative;
   width: 100%;
   background-image: url(../../Assets/Images/about.jpg);
@@ -14,7 +20,7 @@
 
   @media (max-width: 500px) {
     max-height: unset;
-    height: 550px;
+    // height: 550px;
   }
 
   .bg_container {
@@ -157,12 +163,12 @@
   justify-content: center;
   flex-direction: column;
 
-//   span {
-//     padding-left: 70px;
-//     color: #b6ac9a;
-//     font-size: 140px;
-//     font-weight: bold;
-//   }
+  //   span {
+  //     padding-left: 70px;
+  //     color: #b6ac9a;
+  //     font-size: 140px;
+  //     font-weight: bold;
+  //   }
 
   h1 {
     color: #383c45;
@@ -183,7 +189,7 @@
 
     h1 {
       font-size: 70px;
-    //   line-height: 60px;
+      //   line-height: 60px;
     }
   }
 }
