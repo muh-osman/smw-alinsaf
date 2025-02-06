@@ -13,7 +13,7 @@ export default function Navbar() {
 
   useEffect(() => {
     if (isNavOpen) {
-      navBoxRef.current.style.height = "245px";
+      navBoxRef.current.style.height = "255px";
       burgerMenuRef.current.style.rotate = "90deg";
     } else {
       navBoxRef.current.style.height = "0px";
@@ -27,16 +27,16 @@ export default function Navbar() {
         <div className={style.links_box}>
           {/* Big Screen */}
           <div className={style.big_screen_links}>
-            <Link to="/">تواصل معنا</Link>
+            <Link to="contact">تواصل معنا</Link>
           </div>
           <div className={style.big_screen_links}>
-            <Link to="/">المدونة</Link>
+            <Link to="https://jannah.tielabs.com/rtl/">المدونة</Link>
           </div>
           <div className={style.big_screen_links}>
-            <Link to="/">خدماتنا</Link>
+            <Link to="services">خدماتنا</Link>
           </div>
           <div className={style.big_screen_links}>
-            <Link to="/">من نحن</Link>
+            <Link to="about">من نحن</Link>
           </div>
           <div className={style.big_screen_links}>
             <Link to="/">الرئيسية</Link>
@@ -55,16 +55,18 @@ export default function Navbar() {
 
         <div className={style.small_screen_box} ref={navBoxRef}>
           <div className={style.small_screen_links}>
-            <Link to="/">تواصل معنا</Link>
+            <Link to="contact" style={{ border: "none" }}>
+              تواصل معنا
+            </Link>
           </div>
           <div className={style.small_screen_links}>
-            <Link to="/">المدونة</Link>
+            <Link to="https://jannah.tielabs.com/rtl/">المدونة</Link>
           </div>
           <div className={style.small_screen_links}>
-            <Link to="/">خدماتنا</Link>
+            <Link to="services">خدماتنا</Link>
           </div>
           <div className={style.small_screen_links}>
-            <Link to="/">من نحن</Link>
+            <Link to="about">من نحن</Link>
           </div>
           <div className={style.small_screen_links}>
             <Link to="/">الرئيسية</Link>

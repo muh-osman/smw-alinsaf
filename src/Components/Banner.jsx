@@ -41,9 +41,9 @@ export default function Banner() {
         </div>
         <div className={style.right_box}>
           <div>
-            <a href="mailto:info@smwalinsaf.com">
+            <a href="mailto:smwalinsaf@gmail.com">
               <span className={style.hide} style={{ color: "#fff" }}>
-                info@smwalinsaf.com
+                smwalinsaf@gmail.com
               </span>
               <span>
                 <EmailIcon sx={{ fontSize: "18px" }} />
@@ -51,9 +51,9 @@ export default function Banner() {
             </a>
           </div>
           <div>
-            <a href="tel:+966920015336">
+            <a href="tel:+966509997635">
               <span className={style.hide} style={{ color: "#fff" }}>
-                +966920015336
+                +966509997635
               </span>
               <span>
                 <PhoneEnabledIcon sx={{ fontSize: "18px" }} />

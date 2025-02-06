@@ -6,7 +6,7 @@ export default function SecEight() {
     <div className={style.container}>
       <div className={style.box}>
         <div>
-          <Link to="/">اطلب عرض اسعار سريع</Link>
+          <Link to="contact">اطلب عرض اسعار سريع</Link>
         </div>
         <div className={style.text_box} dir="rtl">
           <h1>لا تتردد في الاتصال بنا في أي وقت</h1>
