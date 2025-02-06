@@ -27,16 +27,16 @@ export default function Navbar() {
         <div className={style.links_box}>
           {/* Big Screen */}
           <div className={style.big_screen_links}>
-            <Link to="contact">تواصل معنا</Link>
+            <Link to="/contact">تواصل معنا</Link>
           </div>
           <div className={style.big_screen_links}>
             <Link to="https://jannah.tielabs.com/rtl/">المدونة</Link>
           </div>
           <div className={style.big_screen_links}>
-            <Link to="services">خدماتنا</Link>
+            <Link to="/services">خدماتنا</Link>
           </div>
           <div className={style.big_screen_links}>
-            <Link to="about">من نحن</Link>
+            <Link to="/about">من نحن</Link>
           </div>
           <div className={style.big_screen_links}>
             <Link to="/">الرئيسية</Link>
@@ -55,7 +55,7 @@ export default function Navbar() {
 
         <div className={style.small_screen_box} ref={navBoxRef}>
           <div className={style.small_screen_links}>
-            <Link to="contact" style={{ border: "none" }}>
+            <Link to="/contact" style={{ border: "none" }}>
               تواصل معنا
             </Link>
           </div>
@@ -63,10 +63,10 @@ export default function Navbar() {
             <Link to="https://jannah.tielabs.com/rtl/">المدونة</Link>
           </div>
           <div className={style.small_screen_links}>
-            <Link to="services">خدماتنا</Link>
+            <Link to="/services">خدماتنا</Link>
           </div>
           <div className={style.small_screen_links}>
-            <Link to="about">من نحن</Link>
+            <Link to="/about">من نحن</Link>
           </div>
           <div className={style.small_screen_links}>
             <Link to="/">الرئيسية</Link>
