@@ -135,7 +135,7 @@ export default function Services() {
               </ul>
             </div>
             <div>
-              <img src={seo} alt="seo" />
+              <video src={video} controls style={{ width: "100%" }}></video>
             </div>
           </div>
         </section>
@@ -185,7 +185,7 @@ export default function Services() {
               </ul>
             </div>
             <div>
-              <video src={video} controls style={{ width: "100%" }}></video>
+              <img src={seo} alt="seo" />
             </div>
           </div>
         </section>
