@@ -42,11 +42,8 @@ export default function Navbar() {
             <Link to="/">الرئيسية</Link>
           </div>
           {/* Small Screen */}
-          <button
-            ref={burgerMenuRef}
-            onClick={() => setIsNavOpen((prev) => !prev)}
-          >
-            <MenuIcon sx={{ fontSize: "32px" }} />
+          <button onClick={() => setIsNavOpen((prev) => !prev)}>
+            <MenuIcon ref={burgerMenuRef} sx={{ fontSize: "32px" }} />
           </button>
         </div>
         <div className={style.logo_box}>

@@ -9,7 +9,6 @@ import Footer from "../../Components/Footer";
 import Banner from "../../Components/Banner";
 import Navbar from "../../Components/Navbar";
 
-
 export default function About() {
   useEffect(() => {
     window.scroll({
@@ -32,25 +31,6 @@ export default function About() {
       {/* End Hero */}
 
       <div dir="rtl" className={style.container}>
-        {/* <div className={style.hero_box}>
-          <div>
-            <h1>
-              فريق عمل من المحترفين لبناء مشروعك بالكامل, بداية من الدراسة
-              للتصميم والبرمجة حتى التسويق.
-            </h1>
-
-            <ul>
-              <li>مدير خاص بكل مشروع لسهولة وسرعة التنسيق</li>
-              <li>اجتماعات اون لاين لمناقشة المشروع</li>
-              <li>أسعار منافسة للخدمات</li>
-            </ul>
-          </div>
-
-          <div>
-            <img src={about} alt="about us" />
-          </div>
-        </div> */}
-
         <div className={style.long_text}>
           <div className={style.hero_text_box} dir="ltr">
             <h1>من نحن</h1>
@@ -101,6 +81,39 @@ export default function About() {
             إن المحامين المكلفين بالمهام سوف يقومون بدور مباشر ويشاركون في جميع
             نواحي تقديم الاستشارات.
           </p>
+        </div>
+      </div>
+
+      <div dir="rtl" className={style.our_message_container}>
+        <div className={style.long_text}>
+          <div className={style.hero_text_box} dir="ltr">
+            <h1 dir="rtl">رسالتنا ورؤيتنا:</h1>
+          </div>
+
+          <div>
+            <ul>
+              <li>
+                <span>العمل الجاد</span> الدؤوب المخلص لتحقيق أهدافنا .
+              </li>
+              <li>
+                <span>أن نكون</span> من الشركات الرائدة في هذا المجال .
+              </li>
+              <li>
+                <span>أن نكون مثالا</span> يحتذى به بين نظرائنا من الشركات داخل
+                المملكة العربية السعودية من خلال الكفاءة العالية والحفاظ على
+                المصداقية وثقة المتعاملين معنا .
+              </li>
+              <li>
+                <span>السعي الدائم</span> لضمان الحق والعدالة في معاملتنا مع
+                موظفينا وعملائنا فهم بحق شركاء النجاح معنا .
+              </li>
+              <li>
+                <span>البحث المستمر</span> المتجدد لأحدث ما وصل إليه العالم
+                الغربي والدول المتقدمة في مجال أنظمة المحاماة والاستشارات
+                القانونية .
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
 
