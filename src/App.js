@@ -24,7 +24,7 @@ import Add from "./Pages/Dashboard/Add/Add";
 import Edit from "./Pages/Dashboard/Edit/Edit";
 import Delete from "./Pages/Dashboard/Delete/Delete";
 import NotFound from "./Pages/NotFound/NotFound";
-import OurServices from "./Pages/OurServices/OurServices";
+import Services from "./Pages/Services/Services";
 import Contact from "./Pages/Contact/Contact";
 
 
@@ -37,7 +37,7 @@ export default function App() {
           <Route index element={<Home />} />
           <Route path="blog" element={<Blog />} />
           <Route path="about" element={<About />} />
-          <Route path="services" element={<OurServices />} />
+          <Route path="services" element={<Services />} />
           <Route path="contact" element={<Contact />} />
         </Route>
 
