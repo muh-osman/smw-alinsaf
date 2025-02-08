@@ -94,7 +94,7 @@
   justify-content: flex-end;
   padding: 16px;
 
-  background-image: url(../../Assets/Images/services/hero.webp);
+  // background-image: url(../../Assets/Images/services/hero.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -205,6 +205,16 @@
 @media (max-width: 1050px) {
   .C_box {
     flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 890px) {
+  .C_box {
+    gap: 16px !important;
+
+    & > div {
+      width: calc(50% - 9px) !important;
+    }
   }
 }
 

@@ -313,8 +313,8 @@ body {
   position: fixed;
   width: 60px;
   height: 60px;
-  left: 30px;
-  bottom: 30px;
+  left: 16px;
+  bottom: 16px;
   z-index: 9999;
   background-color: #25d366;
   border-radius: 100%;
