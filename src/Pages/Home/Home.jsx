@@ -11,6 +11,7 @@ import SecSix from "../../Components/SecSix";
 import SecSeven from "../../Components/SecSeven";
 import SecEight from "../../Components/SecEight";
 import Footer from "../../Components/Footer";
+import SecNine from "../../Components/SecNine";
 
 export default function Home() {
   return (
@@ -30,6 +31,7 @@ export default function Home() {
       <SecSix />
       <SecSeven />
       <SecEight />
+      <SecNine />
       <Footer />
     </>
   );

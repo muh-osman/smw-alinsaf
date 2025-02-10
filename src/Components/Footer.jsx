@@ -124,7 +124,7 @@ export default function Footer() {
                   <h4>روابط مهمة</h4>
                   <ul>
                     <li>
-                      <a href="#">الأحكام والخصوصية</a>
+                      <Link to="/privacy-policy">سياسة الخصوصية</Link>
                     </li>
 
                     <li>

@@ -27,13 +27,12 @@ import NotFound from "./Pages/NotFound/NotFound";
 import Services from "./Pages/Services/Services";
 import Contact from "./Pages/Contact/Contact";
 import Book from "./Pages/Book/Book";
-
+import PrivacyPolicy from "./Pages/PrivacyPolicy/PrivacyPolicy";
 
 export default function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
       <Route path="/" element={<Layout />}>
-
         <Route element={<HomeLayout />}>
           <Route index element={<Home />} />
           <Route path="blog" element={<Blog />} />
@@ -41,19 +40,20 @@ export default function App() {
           <Route path="services" element={<Services />} />
           <Route path="contact" element={<Contact />} />
           <Route path="book" element={<Book />} />
+          <Route path="privacy-policy" element={<PrivacyPolicy />} />
         </Route>
 
         <Route element={<NotAuth />}>
-        {/* Start Check if login */}
+          {/* Start Check if login */}
           <Route path="login" element={<LogIn />} />
           <Route path="signup" element={<SignUp />} />
           <Route path="forgot-password" element={<ForgotPassword />} />
           <Route path="reset-password" element={<ResetPassword />} />
-        {/* End Check if login */}
+          {/* End Check if login */}
         </Route>
 
         <Route element={<Auth />}>
-        {/* Start protected route */}
+          {/* Start protected route */}
           <Route path="dashboard" element={<DashboardLayout />}>
             <Route index element={<Dashboard />} />
             <Route path="post/:id" element={<Post />} />
@@ -61,13 +61,12 @@ export default function App() {
             <Route path="edit" element={<Edit />} />
             <Route path="delete" element={<Delete />} />
           </Route>
-        {/* End protected route */}
+          {/* End protected route */}
         </Route>
 
         {/* http://localhost:3000/verify-email?expires=XXX&hash=XXX&id=XXX&signature=XXX */}
         <Route path="verify-email" element={<VerifyEmail />} />
         <Route path="*" element={<NotFound />} />
-
       </Route>
     )
   );
