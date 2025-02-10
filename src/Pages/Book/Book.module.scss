@@ -21,7 +21,7 @@
 
   position: relative;
   width: 100%;
-  background-image: url(../../Assets/Images/about.jpg);
+  background-image: url(../../Assets/Images/services.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -212,10 +212,9 @@
 }
 
 .zxc {
-//   background-color: red;
+  //   background-color: red;
   height: fit-content;
   height: 950px;
-
 
   @media (max-width: 575px) {
     height: 1550px;

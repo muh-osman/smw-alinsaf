@@ -56,7 +56,7 @@ export default function Footer() {
                   <h4>فروعنا</h4>
                   <ul>
                     <li>
-                      <a href="https://maps.app.goo.gl/UVtUybknLQHeA5L29">
+                      <a href="https://maps.app.goo.gl/Bp41TXcygjcr3fpg8">
                         الرياض{" "}
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -79,7 +79,7 @@ export default function Footer() {
                     </li>
 
                     <li>
-                      <a href="https://maps.app.goo.gl/Bp41TXcygjcr3fpg8">
+                      <a href="https://maps.app.goo.gl/CRBrNCUtovBte4cZ7">
                         جدة{" "}
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
