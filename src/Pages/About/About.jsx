@@ -1,7 +1,7 @@
 // Sass
 import style from "./About.module.scss";
 // Images
-import about from "../../Assets/Images/3.jpg";
+// import about from "../../Assets/Images/3.jpg";
 // React
 import { useEffect } from "react";
 // Components

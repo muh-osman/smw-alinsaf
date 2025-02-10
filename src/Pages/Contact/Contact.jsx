@@ -166,7 +166,7 @@ export default function Contact() {
 
           <div className={style.map_box}>
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14500.047443316249!2d46.593795!3d24.692119!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f1e6c59360d4d%3A0x721c4aec213641e!2z2KfZhNi12K3Ysdin2KEg2KfZhNmD2KjYsdmJ2Iwg2LnYsdmC2KnYjCDYp9mE2LHZitin2LYg2KfZhNiz2LnZiNiv2YrYqQ!5e0!3m2!1sar!2sus!4v1738877909999!5m2!1sar!2sus"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3624.9708410317294!2d46.596329175365526!3d24.69352907803866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f1d38080c64cf%3A0xc4303dec33787407!2z2LTYsdmD2Kkg2LPZhdmIINin2YTYpdmG2LXYp9mBINmE2YTZhdit2KfZhdin2Kkg2YjYp9mE2KfYs9iq2LTYp9ix2KfYqiDYp9mE2YLYp9mG2YjZhtmK2Kk!5e0!3m2!1sen!2s!4v1739183291172!5m2!1sen!2s"
               width={width > 575 ? width / 2 : 350}
               height={width > 575 ? width / 2.6 : 350}
               style={{ border: 0 }}

@@ -9,8 +9,8 @@ export default function HeroTextAndBtn() {
         <h5>نحقق العدالة بالخبرة ونحقق الإنصاف بالجدارة</h5>
       </div>
       <div className={style.btn_container}>
-        <Link to="/">احجز الان</Link>
-        <Link to="/">الميز عنا</Link>
+        <Link to="/contact">اتصل بنا</Link>
+        <Link to="/book">احجز الآن</Link>
       </div>
     </div>
   );

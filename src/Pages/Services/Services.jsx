@@ -30,8 +30,6 @@ import thirteen from "../../Assets/Images/services/13.svg";
 import fourteen from "../../Assets/Images/services/14.svg";
 import fifteen from "../../Assets/Images/services/15.svg";
 
-import test from "../../Assets/Images/services/test.svg";
-
 export default function Services() {
   useEffect(() => {
     window.scroll({

@@ -79,7 +79,7 @@ export default function Footer() {
                     </li>
 
                     <li>
-                      <a href="https://maps.app.goo.gl/WN6ooNgzE3X9c9yaA">
+                      <a href="https://maps.app.goo.gl/Bp41TXcygjcr3fpg8">
                         جدة{" "}
                         <svg
                           xmlns="http://www.w3.org/2000/svg"

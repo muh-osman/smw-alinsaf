@@ -26,6 +26,7 @@ import Delete from "./Pages/Dashboard/Delete/Delete";
 import NotFound from "./Pages/NotFound/NotFound";
 import Services from "./Pages/Services/Services";
 import Contact from "./Pages/Contact/Contact";
+import Book from "./Pages/Book/Book";
 
 
 export default function App() {
@@ -39,6 +40,7 @@ export default function App() {
           <Route path="about" element={<About />} />
           <Route path="services" element={<Services />} />
           <Route path="contact" element={<Contact />} />
+          <Route path="book" element={<Book />} />
         </Route>
 
         <Route element={<NotAuth />}>
