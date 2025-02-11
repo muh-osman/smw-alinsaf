@@ -1,6 +1,5 @@
 import style from "./SecNine.module.scss";
 import { useEffect, useRef, useState } from "react";
-import { useNavigate } from "react-router-dom";
 // Mui
 import { styled } from "@mui/material/styles";
 import ArrowForwardIosSharpIcon from "@mui/icons-material/ArrowForwardIosSharp";
@@ -53,8 +52,21 @@ export default function SecNine() {
     setExpanded(newExpanded ? panel : false);
   };
 
+  // Scroll to faq section
+  useEffect(() => {
+    // Check if there's a hash in the URL
+    if (window.location.hash) {
+      const section = document.getElementById(
+        window.location.hash.substring(1)
+      );
+      if (section) {
+        section.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  }, []);
+
   return (
-    <div dir="rtl" className={style.container}>
+    <div id="faq" dir="rtl" className={style.container}>
       {/* Start accordion*/}
       <div className={style.accordion}>
         <h1>الأسئلة الشائعة</h1>

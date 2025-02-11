@@ -1,5 +1,5 @@
 import style from "./Navbar.module.scss";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { useState, useEffect, useRef } from "react";
 //
 import logo from "../Assets/Images/logo.png";
@@ -7,13 +7,14 @@ import logo from "../Assets/Images/logo.png";
 import MenuIcon from "@mui/icons-material/Menu";
 
 export default function Navbar() {
+  const location = useLocation();
   const navBoxRef = useRef();
   const burgerMenuRef = useRef();
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   useEffect(() => {
     if (isNavOpen) {
-      navBoxRef.current.style.height = "255px";
+      navBoxRef.current.style.height = "293px";
       burgerMenuRef.current.style.rotate = "90deg";
     } else {
       navBoxRef.current.style.height = "0px";
@@ -30,17 +31,27 @@ export default function Navbar() {
             <Link to="/contact">تواصل معنا</Link>
           </div>
           <div className={style.big_screen_links}>
+            <Link to="/about">من نحن</Link>
+          </div>
+          <div className={style.big_screen_links}>
             <Link to="https://jannah.tielabs.com/rtl/">المدونة</Link>
           </div>
+          {location.pathname === "/" ? (
+            <div className={style.big_screen_links}>
+              <a href="#faq">الأسئلة الشائعة</a>
+            </div>
+          ) : (
+            <div className={style.big_screen_links}>
+              <Link to={"/#faq"}>الأسئلة الشائعة</Link>
+            </div>
+          )}
           <div className={style.big_screen_links}>
             <Link to="/services">خدماتنا</Link>
           </div>
           <div className={style.big_screen_links}>
-            <Link to="/about">من نحن</Link>
-          </div>
-          <div className={style.big_screen_links}>
             <Link to="/">الرئيسية</Link>
           </div>
+
           {/* Small Screen */}
           <button onClick={() => setIsNavOpen((prev) => !prev)}>
             <MenuIcon ref={burgerMenuRef} sx={{ fontSize: "32px" }} />
@@ -57,13 +68,22 @@ export default function Navbar() {
             </Link>
           </div>
           <div className={style.small_screen_links}>
+            <Link to="/about">من نحن</Link>
+          </div>
+          <div className={style.small_screen_links}>
             <Link to="https://jannah.tielabs.com/rtl/">المدونة</Link>
           </div>
+          {location.pathname === "/" ? (
+            <div className={style.small_screen_links}>
+              <a href="#faq">الأسئلة الشائعة</a>
+            </div>
+          ) : (
+            <div className={style.small_screen_links}>
+              <Link to={"/#faq"}>الأسئلة الشائعة</Link>
+            </div>
+          )}
           <div className={style.small_screen_links}>
             <Link to="/services">خدماتنا</Link>
-          </div>
-          <div className={style.small_screen_links}>
-            <Link to="/about">من نحن</Link>
           </div>
           <div className={style.small_screen_links}>
             <Link to="/">الرئيسية</Link>
