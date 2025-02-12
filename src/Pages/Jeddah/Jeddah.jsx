@@ -1,12 +1,10 @@
-import style from "./Book.module.scss";
-// React
-import { useEffect } from "react";
+import style from "./Jeddah.module.scss";
+import React, { useEffect } from "react";
 // Components
-import Footer from "../../Components/Footer";
 import Banner from "../../Components/Banner";
 import Navbar from "../../Components/Navbar";
 
-export default function Book() {
+export default function Jeddah() {
   useEffect(() => {
     window.scroll({
       top: 0,
@@ -27,11 +25,10 @@ export default function Book() {
       </div>
       {/* End Hero */}
 
-
       <div className={style.container}>
         {/* Google Calendar Appointment Scheduling begin */}
         <iframe
-          src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ0cTZCghiQF9CDohUPppYaJD1uu7u6vtiGjAlYNhx8XzOJDc7QUP0TSQIHaPE1roI9ILnqnVrQ6?gv=true"
+          src="https://calendar.google.com/calendar/appointments/AcZssZ2pcSO8idqloI7DY5hhI3Mj1idk33K308NLzss=?gv=true"
           style={{ border: 0 }}
           width="100%"
           frameBorder={0}
@@ -39,8 +36,6 @@ export default function Book() {
         />
         {/* end Google Calendar Appointment Scheduling */}
       </div>
-
-      <Footer />
     </>
   );
 }
