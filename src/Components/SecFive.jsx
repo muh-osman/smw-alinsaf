@@ -21,8 +21,8 @@ export default function SecFive() {
             <img src={imageA} alt="card" />
           </div>
           <div className={style.text_box}>
-            <h3>الأسم</h3>
-            <p>محامي رئيسي</p>
+            <h3>عبدالله بن سعيد السلاطين</h3>
+            <p>محامي</p>
           </div>
         </div>
 
@@ -31,7 +31,7 @@ export default function SecFive() {
             <img src={imageB} alt="card" />
           </div>
           <div className={style.text_box}>
-            <h3>الأسم</h3>
+            <h3>عبدالله بن علي حكمي</h3>
             <p>محامي</p>
           </div>
         </div>
@@ -41,8 +41,8 @@ export default function SecFive() {
             <img src={imageC} alt="card" />
           </div>
           <div className={style.text_box}>
-            <h3>الأسم</h3>
-            <p>محامي جنائي</p>
+            <h3>ليث بن مقبول الخثعمي</h3>
+            <p>محامي</p>
           </div>
         </div>
 
@@ -51,8 +51,8 @@ export default function SecFive() {
             <img src={imageD} alt="card" />
           </div>
           <div className={style.text_box}>
-            <h3>الأسم</h3>
-            <p>محامي جنائي</p>
+            <h3>نصير بن محمد الهاشمي</h3>
+            <p>مستشار شرعي وقانوني</p>
           </div>
         </div>
       </div>

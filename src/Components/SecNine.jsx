@@ -242,48 +242,6 @@ export default function SecNine() {
             </AccordionDetails>
           </Accordion>
 
-          <h3 className={style.sub_title}>أسئلة أخرى</h3>
-
-          <Accordion
-            expanded={expanded === "panel9"}
-            onChange={handleChange("panel9")}
-          >
-            <AccordionSummary
-              aria-controls="panel9d-content"
-              id="panel9d-header"
-            >
-              <Typography sx={{ fontSize: "18px" }}>
-                &nbsp;ما هي سياسة الخصوصية الخاصة بكم؟
-              </Typography>
-            </AccordionSummary>
-            <AccordionDetails>
-              <Typography color={"#8b8795"}>
-                نحن نلتزم بحماية خصوصية عملائنا. جميع المعلومات التي تقدمها لنا
-                ستكون سرية ولن يتم مشاركتها مع أي طرف آخر دون موافقتك.
-              </Typography>
-            </AccordionDetails>
-          </Accordion>
-
-          <Accordion
-            expanded={expanded === "panel10"}
-            onChange={handleChange("panel10")}
-          >
-            <AccordionSummary
-              aria-controls="panel10d-content"
-              id="panel10d-header"
-            >
-              <Typography sx={{ fontSize: "18px" }}>
-                &nbsp;كيف يمكنني تقديم ملاحظات أو شكاوى؟
-              </Typography>
-            </AccordionSummary>
-            <AccordionDetails>
-              <Typography color={"#8b8795"}>
-                نحن نرحب بملاحظاتك وشكاواك. يمكنك التواصل معنا عبر الهاتف أو
-                البريد الإلكتروني لتقديم ملاحظاتك أو شكواك.
-              </Typography>
-            </AccordionDetails>
-          </Accordion>
-
           <h3 className={style.sub_title}>أسئلة حول الخبرة والتخصص</h3>
 
           <Accordion
@@ -452,6 +410,48 @@ export default function SecNine() {
               <Typography color={"#8b8795"}>
                 نعم، نقدم دعمًا طارئًا للعملاء في الحالات الضرورية خارج ساعات
                 العمل الرسمية. يمكنك التواصل معنا عبر رقم الطوارئ الخاص بنا.
+              </Typography>
+            </AccordionDetails>
+          </Accordion>
+
+          <h3 className={style.sub_title}>أسئلة أخرى</h3>
+
+          <Accordion
+            expanded={expanded === "panel9"}
+            onChange={handleChange("panel9")}
+          >
+            <AccordionSummary
+              aria-controls="panel9d-content"
+              id="panel9d-header"
+            >
+              <Typography sx={{ fontSize: "18px" }}>
+                &nbsp;ما هي سياسة الخصوصية الخاصة بكم؟
+              </Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+              <Typography color={"#8b8795"}>
+                نحن نلتزم بحماية خصوصية عملائنا. جميع المعلومات التي تقدمها لنا
+                ستكون سرية ولن يتم مشاركتها مع أي طرف آخر دون موافقتك.
+              </Typography>
+            </AccordionDetails>
+          </Accordion>
+
+          <Accordion
+            expanded={expanded === "panel10"}
+            onChange={handleChange("panel10")}
+          >
+            <AccordionSummary
+              aria-controls="panel10d-content"
+              id="panel10d-header"
+            >
+              <Typography sx={{ fontSize: "18px" }}>
+                &nbsp;كيف يمكنني تقديم ملاحظات أو شكاوى؟
+              </Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+              <Typography color={"#8b8795"}>
+                نحن نرحب بملاحظاتك وشكاواك. يمكنك التواصل معنا عبر الهاتف أو
+                البريد الإلكتروني لتقديم ملاحظاتك أو شكواك.
               </Typography>
             </AccordionDetails>
           </Accordion>
