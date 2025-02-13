@@ -139,12 +139,19 @@ export default function Footer() {
                   <h4>تواصل معنا</h4>
                   <ul>
                     <li className="footer-contact-li">
-                      <span className="me-0">خدمة العملاء</span>
+                      <span className="me-0">فرع الرياض</span>
                       <p>
-                        <a dir="ltr" href="tel:+966509997635">
-                          +966509997635
+                        <a dir="ltr" href="tel:+966112105999">
+                          +966112105999
                         </a>
                       </p>
+                      <span className="me-0">فرع جدة</span>
+                      <p>
+                        <a dir="ltr" href="tel:+966126677776">
+                          +966126677776
+                        </a>
+                      </p>
+                      <span className="me-0">بريد الكتروني</span>
                       <p>
                         <a dir="rtl" href="mailto:smwalinsaf@gmail.com">
                           smwalinsaf@gmail.com
@@ -174,7 +181,7 @@ export default function Footer() {
         aria-label="WhatsApp Customer Service"
         className="sticky-icon"
         target="_blank"
-        href="https://wa.me/966509997635"
+        href="https://wa.me/966506486173"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
