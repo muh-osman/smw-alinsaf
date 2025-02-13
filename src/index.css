@@ -217,7 +217,7 @@ body {
     margin: 10px 0px;
   }
 }
-.footer-section .footer-contact ul li:first-child {
+.footer-section .footer-contact ul li {
   width: 100%;
 }
 .footer-section .rights-section {

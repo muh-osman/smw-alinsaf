@@ -148,6 +148,9 @@ export default function Footer() {
                           +966112105999
                         </a>
                       </p>
+                    </li>
+
+                    <li className="footer-contact-li">
                       <span className="me-0">فرع جدة</span>
                       <p>
                         <a dir="ltr" href="tel:+966506486173">
@@ -157,12 +160,18 @@ export default function Footer() {
                           +966126677776
                         </a>
                       </p>
+                    </li>
+
+                    <li className="footer-contact-li">
                       <span className="me-0">رقم موحد</span>
                       <p>
                         <a dir="ltr" href="tel:+966920015336">
                           +966920015336
                         </a>
                       </p>
+                    </li>
+
+                    <li className="footer-contact-li">
                       <span className="me-0">بريد الكتروني</span>
                       <p>
                         <a dir="rtl" href="mailto:smwalinsaf@gmail.com">
