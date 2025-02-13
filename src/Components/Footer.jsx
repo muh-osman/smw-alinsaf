@@ -174,8 +174,8 @@ export default function Footer() {
                     <li className="footer-contact-li">
                       <span className="me-0">بريد الكتروني</span>
                       <p>
-                        <a dir="rtl" href="mailto:smwalinsaf@gmail.com">
-                          smwalinsaf@gmail.com
+                        <a dir="rtl" href="mailto:help@smwalinsaf.com">
+                          help@smwalinsaf.com
                         </a>
                       </p>
                     </li>
