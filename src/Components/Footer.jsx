@@ -141,12 +141,18 @@ export default function Footer() {
                     <li className="footer-contact-li">
                       <span className="me-0">فرع الرياض</span>
                       <p>
+                        <a dir="ltr" href="tel:+966509997635">
+                          +966509997635
+                        </a>
                         <a dir="ltr" href="tel:+966112105999">
                           +966112105999
                         </a>
                       </p>
                       <span className="me-0">فرع جدة</span>
                       <p>
+                        <a dir="ltr" href="tel:+966506486173">
+                          +966506486173
+                        </a>
                         <a dir="ltr" href="tel:+966126677776">
                           +966126677776
                         </a>
