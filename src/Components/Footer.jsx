@@ -141,11 +141,11 @@ export default function Footer() {
                     <li className="footer-contact-li">
                       <span className="me-0">فرع الرياض</span>
                       <p>
-                        <a dir="ltr" href="tel:+966509997635">
-                          +966509997635
+                        <a dir="ltr" href="tel:509997635">
+                          509997635
                         </a>
-                        <a dir="ltr" href="tel:+966112105999">
-                          +966112105999
+                        <a dir="ltr" href="tel:0112105999">
+                          0112105999
                         </a>
                       </p>
                     </li>
@@ -153,11 +153,11 @@ export default function Footer() {
                     <li className="footer-contact-li">
                       <span className="me-0">فرع جدة</span>
                       <p>
-                        <a dir="ltr" href="tel:+966506486173">
-                          +966506486173
+                        <a dir="ltr" href="tel:506486173">
+                          506486173
                         </a>
-                        <a dir="ltr" href="tel:+966126677776">
-                          +966126677776
+                        <a dir="ltr" href="tel:0126677776">
+                          0126677776
                         </a>
                       </p>
                     </li>
@@ -165,8 +165,8 @@ export default function Footer() {
                     <li className="footer-contact-li">
                       <span className="me-0">رقم موحد</span>
                       <p>
-                        <a dir="ltr" href="tel:+966920015336">
-                          +966920015336
+                        <a dir="ltr" href="tel:920015336">
+                          920015336
                         </a>
                       </p>
                     </li>
