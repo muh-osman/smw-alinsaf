@@ -31,8 +31,8 @@ export default function SecFive() {
             <img src={imageB} alt="card" />
           </div>
           <div className={style.text_box}>
-            <h3>عبدالله بن علي حكمي</h3>
-            <p>محامي</p>
+            <h3>نورة القويز</h3>
+            <p>محامية</p>
           </div>
         </div>
 
@@ -51,8 +51,8 @@ export default function SecFive() {
             <img src={imageD} alt="card" />
           </div>
           <div className={style.text_box}>
-            <h3>نصير بن محمد الهاشمي</h3>
-            <p>مستشار شرعي وقانوني</p>
+            <h3>نجود الدوسري</h3>
+            <p>محامية</p>
           </div>
         </div>
       </div>
