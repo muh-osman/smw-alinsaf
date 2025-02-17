@@ -66,7 +66,7 @@ export default function SecFour() {
             <img src={imageE} alt="card" />
           </div>
           <div className={style.text_box}>
-            <h3>التعويضات والنزاعات المدنية.</h3>
+            <h3>التعويضات والنزاعات المدنية</h3>
             <p>
               نوفر الدفاع القانوني المتخصص في قضايا المخدرات مع ضمان حماية
               حقوقك.
