@@ -34,7 +34,7 @@ export default function Navbar() {
             <Link to="/about">من نحن</Link>
           </div>
           <div className={style.big_screen_links}>
-            <Link to="https://jannah.tielabs.com/rtl/">المدونة</Link>
+            <a href="https://smwalinsaf.com/blog/">المدونة</a>
           </div>
           {location.pathname === "/" ? (
             <div className={style.big_screen_links}>
@@ -71,7 +71,7 @@ export default function Navbar() {
             <Link to="/about">من نحن</Link>
           </div>
           <div className={style.small_screen_links}>
-            <Link to="https://jannah.tielabs.com/rtl/">المدونة</Link>
+            <a href="https://smwalinsaf.com/blog/">المدونة</a>
           </div>
           {location.pathname === "/" ? (
             <div className={style.small_screen_links}>

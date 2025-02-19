@@ -28,21 +28,21 @@ export default function SecFive() {
 
         <div className={style.card}>
           <div>
-            <img src={imageB} alt="card" />
-          </div>
-          <div className={style.text_box}>
-            <h3>نورة القويز</h3>
-            <p>محامية</p>
-          </div>
-        </div>
-
-        <div className={style.card}>
-          <div>
             <img src={imageC} alt="card" />
           </div>
           <div className={style.text_box}>
             <h3>ليث بن مقبول الخثعمي</h3>
             <p>محامي</p>
+          </div>
+        </div>
+
+        <div className={style.card}>
+          <div>
+            <img src={imageB} alt="card" />
+          </div>
+          <div className={style.text_box}>
+            <h3>نورة القويز</h3>
+            <p>محامية</p>
           </div>
         </div>
 
