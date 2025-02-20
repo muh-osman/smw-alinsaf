@@ -59,7 +59,7 @@ export default function Contact() {
             <h1>تواصل معنا</h1>
 
             <form
-              action="https://formsubmit.co/gp415400@gmail.com.com"
+              action="https://formsubmit.co/AB@smwalinsaf.com"
               method="POST"
             >
               {/* الاسم */}
