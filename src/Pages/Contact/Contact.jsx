@@ -30,25 +30,14 @@ export default function Contact() {
 
   const { width } = useWindowDimensions();
 
-  const scriptURL =
-    "https://script.google.com/macros/s/AKfycbz1DQpJKDJQCzcFCidNIT1G4f7YeXblkhSMFNyud05DdPkb_tX7Tb2JMIMDLCgmeseGEA/exec";
+  // const form = document.forms["submit-to-google-sheet"];
 
-  const form = document.forms["submit-to-google-sheet"];
+  function clickBtn(e) {
 
-  async function handleSubmit(e) {
-    e.preventDefault();
-    setLoading(true);
+    if (name && email && message) {
+      setLoading(true);
 
-    try {
-      const res = await fetch(scriptURL, {
-        method: "POST",
-        body: new FormData(form),
-      });
-      console.log("Success!", res);
-      setSubmitted(true);
-    } catch (error) {
-      console.error("Error!", error.message);
-      setLoading(false);
+      e.target.form.submit(); // This submits the form
     }
   }
 
@@ -69,7 +58,10 @@ export default function Contact() {
           <div className={style.form_box}>
             <h1>تواصل معنا</h1>
 
-            <form name="submit-to-google-sheet" onSubmit={handleSubmit}>
+            <form
+              action="https://formsubmit.co/gp415400@gmail.com.com"
+              method="POST"
+            >
               {/* الاسم */}
               <div className="mb-3">
                 <label htmlFor="exampleInputEmail2" className="form-label">
@@ -136,10 +128,13 @@ export default function Contact() {
                 ></textarea>
               </div>
 
+              <input type="hidden" name="_captcha" value="false" />
+
               <button
                 type="submit"
                 className="btn btn-primary w-100 special"
                 disabled={loading}
+                onClick={clickBtn}
               >
                 {loading ? (
                   <span

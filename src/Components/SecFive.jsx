@@ -2,8 +2,6 @@ import style from "./SecFive.module.scss";
 // Images
 import imageA from "../Assets/Images/1.jpg";
 import imageB from "../Assets/Images/2.jpg";
-import imageC from "../Assets/Images/3.jpg";
-import imageD from "../Assets/Images/4.jpg";
 
 export default function SecFive() {
   return (
@@ -28,7 +26,7 @@ export default function SecFive() {
 
         <div className={style.card}>
           <div>
-            <img src={imageC} alt="card" />
+            <img src={imageA} alt="card" />
           </div>
           <div className={style.text_box}>
             <h3>ليث بن مقبول الخثعمي</h3>
@@ -48,7 +46,7 @@ export default function SecFive() {
 
         <div className={style.card}>
           <div>
-            <img src={imageD} alt="card" />
+            <img src={imageB} alt="card" />
           </div>
           <div className={style.text_box}>
             <h3>نجود الدوسري</h3>
