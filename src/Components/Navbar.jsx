@@ -58,7 +58,9 @@ export default function Navbar() {
           </button>
         </div>
         <div className={style.logo_box}>
-          <img src={logo} alt="logo" />
+          <Link to="/">
+            <img src={logo} alt="logo" />
+          </Link>
         </div>
 
         <div className={style.small_screen_box} ref={navBoxRef}>

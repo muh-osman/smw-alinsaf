@@ -1,6 +1,6 @@
 import style from "./SecFour.module.scss";
 // Images
-import imageA from "../Assets/Images/imageA.jpg";
+import imageA from "../Assets/Images/imageA.png";
 import imageB from "../Assets/Images/imageB.jpg";
 import imageC from "../Assets/Images/imageC.jpg";
 import imageD from "../Assets/Images/imageD.jpg";

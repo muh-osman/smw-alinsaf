@@ -128,7 +128,7 @@ export default function Footer() {
                     </li>
 
                     <li>
-                      <a href="https://jannah.tielabs.com/rtl/">المدونة</a>
+                      <a href="https://smwalinsaf.com/blog/">المدونة</a>
                     </li>
                   </ul>
                 </div>
@@ -141,35 +141,35 @@ export default function Footer() {
                     <li className="footer-contact-li">
                       <span className="me-0">فرع الرياض</span>
                       <p>
-                        <a dir="ltr" href="tel:509997635">
-                          509997635
+                        <a dir="ltr" href="tel:0509997635">
+                          0509997635
                         </a>
-                        <a dir="ltr" href="tel:0112105999">
+                        {/* <a dir="ltr" href="tel:0112105999">
                           0112105999
-                        </a>
+                        </a> */}
                       </p>
                     </li>
 
                     <li className="footer-contact-li">
                       <span className="me-0">فرع جدة</span>
                       <p>
-                        <a dir="ltr" href="tel:506486173">
-                          506486173
+                        <a dir="ltr" href="tel:0506486173">
+                          0506486173
                         </a>
-                        <a dir="ltr" href="tel:0126677776">
+                        {/* <a dir="ltr" href="tel:0126677776">
                           0126677776
-                        </a>
+                        </a> */}
                       </p>
                     </li>
 
-                    <li className="footer-contact-li">
+                    {/* <li className="footer-contact-li">
                       <span className="me-0">رقم موحد</span>
                       <p>
                         <a dir="ltr" href="tel:920015336">
                           920015336
                         </a>
                       </p>
-                    </li>
+                    </li> */}
 
                     <li className="footer-contact-li">
                       <span className="me-0">بريد الكتروني</span>

@@ -13,65 +13,64 @@ export default function SecSeven() {
 
       <div dir="rtl" className={style.box}>
         <div className={style.card}>
-          <a href="https://jannah.tielabs.com/rtl/">
+          <a href="https://smwalinsaf.com/blog/?p=1310">
             <div>
               <img src={imageA} alt="card" />
             </div>
             <div className={style.text_box}>
-              <h3>12 مايو 2025</h3>
+              <h3>25 فبراير 2025</h3>
               <p>
-                نقدم خدمات قانونية متخصصة في النزاعات المالية العقود، والامتثال
-                للأنظمة
+                نصائح قانونية في المسائل المالية | شركة سمو الإنصاف للمحاماة
+                والاستشارات القانونية
               </p>
             </div>
           </a>
         </div>
 
         <div className={style.card}>
-          <a href="https://jannah.tielabs.com/rtl/">
+          <a href="https://smwalinsaf.com/blog/?p=1314">
             <div>
               <img src={imageB} alt="card" />
             </div>
             <div className={style.text_box}>
-              <h3>12 مايو 2025</h3>
+              <h3>25 فبراير 2025</h3>
               <p>
-                نقدم خدمات قانونية متخصصة في النزاعات المالية العقود، والامتثال
-                للأنظمة
+                نصائح قانونية حول التركات | شركة سمو الإنصاف للمحاماة
+                والاستشارات القانونية
               </p>
             </div>
           </a>
         </div>
 
         <div className={style.card}>
-          <a href="https://jannah.tielabs.com/rtl/">
+          <a href="https://smwalinsaf.com/blog/?p=1316">
             <div>
               <img src={imageC} alt="card" />
             </div>
             <div className={style.text_box}>
-              <h3>12 مايو 2025</h3>
+              <h3>25 فبراير 2025</h3>
               <p>
-                نقدم خدمات قانونية متخصصة في النزاعات المالية العقود، والامتثال
-                للأنظمة
+                نصائح قانونية في القضايا التجارية | شركة سمو الإنصاف للمحاماة
+                والاستشارات القانونية
               </p>
             </div>
           </a>
         </div>
 
         <div className={style.card}>
-          <a href="https://jannah.tielabs.com/rtl/">
+          <a href="https://smwalinsaf.com/blog/?p=1318">
             <div>
               <img src={imageD} alt="card" />
             </div>
             <div className={style.text_box}>
-              <h3>12 مايو 2025</h3>
+              <h3>25 فبراير 2025</h3>
               <p>
-                نقدم خدمات قانونية متخصصة في النزاعات المالية العقود، والامتثال
-                للأنظمة
+                نصائح قانونية في القضايا العقارية | شركة سمو الإنصاف للمحاماة
+                والاستشارات القانونية
               </p>
             </div>
           </a>
         </div>
-
       </div>
     </div>
   );

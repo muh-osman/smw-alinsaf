@@ -51,9 +51,9 @@ export default function Banner() {
             </a>
           </div>
           <div>
-            <a href="tel:920015336">
+            <a href="tel:0506486173">
               <span className={style.hide} style={{ color: "#fff" }}>
-                920015336
+                0506486173
               </span>
               <span>
                 <PhoneEnabledIcon sx={{ fontSize: "18px" }} />
